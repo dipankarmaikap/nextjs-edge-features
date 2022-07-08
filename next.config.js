@@ -5,6 +5,7 @@ module.exports = {
     runtime: "experimental-edge",
     images: {
       allowFutureImage: true,
+      unoptimized: true,
       remotePatterns: [
         {
           protocol: "https",
