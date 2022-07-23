@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   experimental: {
-    runtime: "experimental-edge",
+    // runtime: "experimental-edge",
     images: {
       allowFutureImage: true,
       unoptimized: true,
