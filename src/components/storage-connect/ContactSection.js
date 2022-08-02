@@ -9,7 +9,7 @@ export default function ContactSection() {
   return (
     <section className="relative overflow-hidden py-20 px-4">
       <div className="max-w-5xl bg-white shadow-lg rounded-lg p-4 z-20 mx-auto relative">
-        <div className="max-w-4xl mx-auto  min-h-[300px] flex justify-between items-center flex-wrap">
+        <div className="max-w-4xl mx-auto py-16 sm:py-20 flex justify-between items-center flex-wrap">
           <div className="text">
             <h2 className="font-bold text-4xl text-theme-darkBlue">
               Any Queries? Reach Out to Us

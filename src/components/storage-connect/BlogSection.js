@@ -1,16 +1,12 @@
 import data from "~/lib/storages-db";
-import CircleIcon from "./icons/CircleIcon";
 import BlogItem from "./BlogItem";
 import Image from "next/future/image";
-import HeroBgImage from "~/images/Squooshed/hero-image.jpg";
+import HeroBgImage from "~/images/Squooshed/blogbg-image.jpg";
 
 export default function BlogSection() {
   let listings = data.slice(0, 4);
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute mt-[-10%] z-1">
-        <CircleIcon />
-      </div>
       <div className="container mx-auto p-4 py-16 sm:py-20 z-20 relative">
         <h2 className="font-semibold text-4xl text-center text-white max-w-3xl mx-auto">
           Learn Everything About Buying, Selling, and Operating a Self Storage
@@ -30,10 +26,9 @@ export default function BlogSection() {
           </button>
         </div>
       </div>
-      <div className="absolute opacity-95 inset-0 bg-theme-blue"></div>
       <div className="absolute inset-0 z-[-1]">
         <Image
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
           role="presentation"
           src={HeroBgImage}
           alt="Hero background image"
