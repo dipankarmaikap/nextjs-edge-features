@@ -2,13 +2,12 @@ import Sidebar from "~/components/dashboard/Sidebar";
 import contacts from "~/lib/contact-db";
 
 export default function IndividualPage({ user }) {
-  console.log(user);
   return (
     <section className="flex w-full h-screen bg-gray-100">
       <div className="flex w-full h-full">
         <Sidebar />
-        <main className="flex-1">
-          <p>Hello</p>
+        <main className="flex-1 p-4">
+          <pre>{JSON.stringify(user, null, 2)}</pre>
         </main>
       </div>
     </section>
