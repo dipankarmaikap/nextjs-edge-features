@@ -1,0 +1,51 @@
+let data = [
+  {
+    id: 1,
+    name: "Self Storage Business",
+    location: "City, NY",
+    totalUnits: 100,
+    occupancy: 50,
+    size: "900 sq. ft.",
+  },
+  {
+    id: 2,
+    name: "Self Storage Business",
+    location: "City, NY",
+    totalUnits: 200,
+    occupancy: 60,
+    size: "1,180 sq. ft.",
+  },
+  {
+    id: 3,
+    name: "Self Storage Business",
+    location: "City, NY",
+    totalUnits: 300,
+    occupancy: 70,
+    size: "1,600 sq. ft.",
+  },
+  {
+    id: 4,
+    name: "Self Storage Business",
+    location: "City, NY",
+    totalUnits: 400,
+    occupancy: 80,
+    size: "1,800 sq. ft.",
+  },
+  {
+    id: 5,
+    name: "Self Storage Business",
+    location: "City, NY",
+    totalUnits: 250,
+    occupancy: 40,
+    size: "1,100 sq. ft.",
+  },
+  {
+    id: 6,
+    name: "Self Storage Business",
+    location: "City, NY",
+    totalUnits: 1000,
+    occupancy: 85,
+    size: "1,500 sq. ft.",
+  },
+];
+export default data;
