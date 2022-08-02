@@ -1,4 +1,4 @@
-import UnreadIcon from "./icons/unreadIcon";
+import UnreadIcon from "./icons/UnreadIcon";
 
 export default function SearchSection() {
   return (
